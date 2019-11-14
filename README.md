@@ -1,12 +1,15 @@
 ## PermissionScope is no longer supported. Please use an alternative if you need updates for newer iOS 10 and 11 APIs!
 
+## update history
+31/10/19 : apply Swift 5
+
 <p align="center">
     <img src="http://raquo.net/images/banner.png" alt="PermissionScope" />
 </p>
 
 <p align="center">
     <img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 8+" />
-    <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-swift3-f48041.svg?style=flat" alt="Language: Swift 3" /></a>
+    <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-swift5-f48041.svg?style=flat" alt="Language: Swift 5" /></a>
     <a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage compatible" /></a>
     <a href="https://cocoapods.org/pods/PermissionScope"><img src="https://cocoapod-badges.herokuapp.com/v/PermissionScope/badge.png" alt="Cocoapods compatible" /></a>
     <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat" alt="License: MIT" />
@@ -47,9 +50,9 @@ Supported permissions:
 
 ## compatibility
 
-PermissionScope requires iOS 8+, compatible with both **Swift 3** and **Objective-C** based projects.
+PermissionScope requires iOS 8+, compatible with both **Swift 5** and **Objective-C** based projects.
 
-For Swift 2.x support, please use the swift2 branch or the 1.0.2 release version. This branch was up-to-date on 9/6/16 but is not being maintained. All future efforts will go towards Swift 3 development.
+For Swift 5 support, please use the Xcode 11.0+ release version. This branch was up-to-date on 31/10/19.
 
 ## installation
 
