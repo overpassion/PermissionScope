@@ -27,34 +27,16 @@ extension String {
     }
 }
 
-<<<<<<< HEAD
 extension CGRect {
     public mutating func offsetInPlace(dx: CGFloat, dy: CGFloat) {
         self = offsetBy(dx: dx, dy: dy)
-=======
-extension SequenceType {
-    /**
-    Returns the first that satisfies the predicate includeElement, or nil. Similar to `filter` but stops when one element is found. Thanks to [bigonotetaking](https://bigonotetaking.wordpress.com/2015/08/22/using-higher-order-methods-everywhere/)
-    
-    - parameter includeElement: Predicate that the Element must satisfy.
-    
-    - returns: First element that satisfies the predicate, or nil.
-    */
-    func first(@noescape includeElement: Generator.Element -> Bool) -> Generator.Element? {
-        for x in self where includeElement(x) { return x }
-        return nil
->>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
     }
 }
 
 extension Optional {
     /// True if the Optional is .None. Useful to avoid if-let.
     var isNil: Bool {
-<<<<<<< HEAD
         if case .none = self {
-=======
-        if case .None = self {
->>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
             return true
         }
         return false

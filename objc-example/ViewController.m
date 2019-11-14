@@ -22,7 +22,6 @@
     self.singlePscope = [[PermissionScope alloc]init];
     self.multiPscope = [[PermissionScope alloc]init];
     
-<<<<<<< HEAD
     [self.singlePscope addPermission:[[NotificationsPermission alloc] initWithNotificationCategories:nil] message:NSLocalizedString(@"We use this to send you\r\nspam and love notes",nil)];
     
     //[self.multiPscope addPermission:[[ContactsPermission alloc]init] message:@"We use this to steal\r\nyour friends"];
@@ -30,15 +29,6 @@
     [self.multiPscope addPermission:[[LocationWhileInUsePermission alloc]init] message:NSLocalizedString(@"We use this to track\r\nwhere you live",nil)];
     [self.multiPscope addPermission:[[BluetoothPermission alloc]init] message:NSLocalizedString(@"We use this to drain your battery",nil)];
     //[self.multiPscope addPermission:[[MotionPermission alloc]init] message:@"We use this to detect if you are\r\nThe Flash"];
-=======
-    [self.singlePscope addPermission:[[NotificationsPermission alloc]initWithNotificationCategories:nil] message:@"We use this to send you\r\nspam and love notes"];
-    
-    [self.multiPscope addPermission:[[ContactsPermission alloc]init] message:@"We use this to steal\r\nyour friends"];
-    [self.multiPscope addPermission:[[NotificationsPermission alloc]initWithNotificationCategories:nil] message:@"We use this to send you\r\nspam and love notes"];
-    [self.multiPscope addPermission:[[LocationWhileInUsePermission alloc]init] message:@"We use this to track\r\nwhere you live"];
-//    [self.multiPscope addPermission:[[BluetoothPermission alloc]init] message:@"We use this to drain your battery"];
-//    [self.multiPscope addPermission:[[MotionPermission alloc]init] message:@"We use this to detect if you are\r\nThe Flash"];
->>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
 }
 
 - (IBAction)single {

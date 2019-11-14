@@ -53,10 +53,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-<<<<<<< HEAD
 	<key>NSContactsUsageDescription</key>
 	<string>Your app uses the address book</string>
-=======
->>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
 </dict>
 </plist>
