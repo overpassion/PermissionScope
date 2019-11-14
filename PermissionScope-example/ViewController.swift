@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         singlePscope.addPermission(NotificationsPermission(notificationCategories: nil),
+<<<<<<< HEAD
             message: "We use this to send you\r\nspam and love notes".localized)
 
         multiPscope.addPermission(ContactsPermission(),
@@ -27,6 +28,16 @@ class ViewController: UIViewController {
             message: "We use this to send you\r\nspam and love notes".localized)
         multiPscope.addPermission(LocationWhileInUsePermission(),
             message: "We use this to track\r\nwhere you live".localized)
+=======
+            message: "We use this to send you\r\nspam and love notes")
+
+        multiPscope.addPermission(ContactsPermission(),
+            message: "We use this to steal\r\nyour friends")
+        multiPscope.addPermission(NotificationsPermission(notificationCategories: nil),
+            message: "We use this to send you\r\nspam and love notes")
+        multiPscope.addPermission(LocationWhileInUsePermission(),
+            message: "We use this to track\r\nwhere you live")
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
 
         // Other example permissions
 //        multiPscope.addPermission(MicrophonePermission(),message: "We can hear you")
@@ -43,6 +54,7 @@ class ViewController: UIViewController {
     // an example of how to use the unified permissions API
     func checkContacts() {
         switch PermissionScope().statusContacts() {
+<<<<<<< HEAD
         case .unknown:
             // ask
             PermissionScope().requestContacts()
@@ -50,6 +62,15 @@ class ViewController: UIViewController {
             // bummer
             return
         case .authorized:
+=======
+        case .Unknown:
+            // ask
+            PermissionScope().requestContacts()
+        case .Unauthorized, .Disabled:
+            // bummer
+            return
+        case .Authorized:
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
             // thanks!
             return
         }

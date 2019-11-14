@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xBn-zd-ZG0">
     <device id="retina4_0" orientation="portrait">
@@ -7,6 +8,13 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+=======
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xBn-zd-ZG0">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
     </dependencies>
     <scenes>
         <!--view controller-->
@@ -18,10 +26,17 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRV-Y8-Fit">
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRV-Y8-Fit">
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
                                 <rect key="frame" x="202" y="322" width="200" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Hly-2e-EHj"/>
@@ -29,14 +44,23 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                 <state key="normal" title="Multiple Permissions">
+<<<<<<< HEAD
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+=======
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
                                 </state>
                                 <connections>
                                     <action selector="multiPerms" destination="BYZ-38-t0r" eventType="touchUpInside" id="ctY-iK-t0u"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Caz-ES-oJ2">
+=======
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Caz-ES-oJ2">
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
                                 <rect key="frame" x="200" y="247" width="200" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="P8W-hA-aOH"/>
@@ -44,14 +68,23 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                 <state key="normal" title="Simple Notifications">
+<<<<<<< HEAD
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+=======
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
                                 </state>
                                 <connections>
                                     <action selector="singlePerm" destination="BYZ-38-t0r" eventType="touchUpInside" id="SoH-j6-hTO"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9DH-lH-uup">
+=======
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9DH-lH-uup">
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
                                 <rect key="frame" x="200" y="395" width="200" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Gj5-X0-lpN"/>
@@ -59,15 +92,24 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                 <state key="normal" title="UI-less Permissions">
+<<<<<<< HEAD
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+=======
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
                                 </state>
                                 <connections>
                                     <action selector="noUIPerm" destination="BYZ-38-t0r" eventType="touchUpInside" id="zkt-X0-IC7"/>
                                 </connections>
                             </button>
                         </subviews>
+<<<<<<< HEAD
                         <color key="backgroundColor" red="1" green="0.4823529412" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+=======
+                        <color key="backgroundColor" red="1" green="0.4823529412" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="Caz-ES-oJ2" secondAttribute="centerY" constant="0.5" id="3vu-t3-QA9"/>
                             <constraint firstAttribute="centerX" secondItem="Caz-ES-oJ2" secondAttribute="centerX" id="8O9-3g-0Ll"/>
@@ -94,7 +136,11 @@
             <objects>
                 <navigationController id="xBn-zd-ZG0" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nEa-VS-YRM">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>

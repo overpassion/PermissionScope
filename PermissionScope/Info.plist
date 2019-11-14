@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
+<<<<<<< HEAD
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+=======
+	<string>en</string>
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +17,11 @@
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
 	<key>CFBundlePackageType</key>
+<<<<<<< HEAD
 	<string>APPL</string>
+=======
+	<string>FMWK</string>
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
 	<key>CFBundleShortVersionString</key>
 	<string>0.6</string>
 	<key>CFBundleSignature</key>

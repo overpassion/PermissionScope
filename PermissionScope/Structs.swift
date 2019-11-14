@@ -10,11 +10,19 @@ import Foundation
 
 /// Permissions currently supportes by PermissionScope
 @objc public enum PermissionType: Int, CustomStringConvertible {
+<<<<<<< HEAD
     case contacts, locationAlways, locationInUse, notifications, microphone, camera, photos, reminders, events, bluetooth, motion
     
     public var prettyDescription: String {
         switch self {
         case .locationAlways, .locationInUse:
+=======
+    case Contacts, LocationAlways, LocationInUse, Notifications, Microphone, Camera, Photos, Reminders, Events, Bluetooth, Motion
+    
+    public var prettyDescription: String {
+        switch self {
+        case .LocationAlways, .LocationInUse:
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
             return "Location"
         default:
             return "\(self)"
@@ -23,6 +31,7 @@ import Foundation
     
     public var description: String {
         switch self {
+<<<<<<< HEAD
         case .contacts:         return "Contacts"
         case .events:           return "Events"
         case .locationAlways:   return "LocationAlways"
@@ -38,10 +47,28 @@ import Foundation
     }
     
     static let allValues = [contacts, locationAlways, locationInUse, notifications, microphone, camera, photos, reminders, events, bluetooth, motion]
+=======
+        case .Contacts:         return "Contacts"
+        case .Events:           return "Events"
+        case .LocationAlways:   return "LocationAlways"
+        case .LocationInUse:    return "LocationInUse"
+        case .Notifications:    return "Notifications"
+        case .Microphone:       return "Microphone"
+        case .Camera:           return "Camera"
+        case .Photos:           return "Photos"
+        case .Reminders:        return "Reminders"
+        case .Bluetooth:        return "Bluetooth"
+        case .Motion:           return "Motion"
+        }
+    }
+    
+    static let allValues = [Contacts, LocationAlways, LocationInUse, Notifications, Microphone, Camera, Photos, Reminders, Events, Bluetooth, Motion]
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
 }
 
 /// Possible statuses for a permission.
 @objc public enum PermissionStatus: Int, CustomStringConvertible {
+<<<<<<< HEAD
     case authorized, unauthorized, unknown, disabled
     
     public var description: String {
@@ -50,6 +77,16 @@ import Foundation
         case .unauthorized: return "Unauthorized"
         case .unknown:      return "Unknown"
         case .disabled:     return "Disabled" // System-level
+=======
+    case Authorized, Unauthorized, Unknown, Disabled
+    
+    public var description: String {
+        switch self {
+        case .Authorized:   return "Authorized"
+        case .Unauthorized: return "Unauthorized"
+        case .Unknown:      return "Unknown"
+        case .Disabled:     return "Disabled" // System-level
+>>>>>>> 8e7df5b5b676363b680a9fc0578ff232bcf8be5d
         }
     }
 }
